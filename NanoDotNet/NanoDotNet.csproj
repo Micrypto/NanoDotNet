@@ -1,7 +1,19 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Micrypto.NanoDotNet</RootNamespace>
+    <Authors>Micrypto</Authors>
+    <Product>Micrypto.NanoDotNet</Product>
+    <Version>0.0.1</Version>
+    <Description>Nano RPC Library for .NET.</Description>
+    <Copyright>MIT</Copyright>
+    <PackageProjectUrl>https://github.com/Micrypto/NanoDotNet</PackageProjectUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.1" />
+  </ItemGroup>
 
 </Project>
